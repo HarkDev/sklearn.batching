@@ -75,4 +75,4 @@ class BatchStandardScaler(TransformerMixin):
             # Draw progressbar
             self.drawProgressBar(index / total_rows, 50)
             
-        return 
+        return X
