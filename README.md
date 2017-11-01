@@ -22,12 +22,18 @@ Basically, contains a set of classes that implement the SciKit Leran's API, that
 The following are some of the classes that are implementes:
 
 ## Batching Standard Scaler
-Allow to apply scaling on a batch with 2 steps:
+Allow to apply scaling on a batch with 2 lines of code:
 ```
 # Batch standard scaler
 std_scaler = BatchStandardScaler(columns = SCALE_COLUMNS, batch_size=100000)
 
 # Fit and transform on batches
 df_train = std_scaler.fit_transform(df_train)
+```
+```
+ Partially fitting standard scaler...
+[ ================================================== ] 100.00%
+ Partially transforming...
+[ =============================                      ] 59.32%
 ```
 **Feel free to fork and pull new commits on your custom implementations of batching or any other techniques to use big databases**
