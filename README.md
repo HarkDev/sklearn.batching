@@ -1,5 +1,10 @@
-# sklearn.batching
-A set of classes to implement batching on Scikit Learn's models, transformers, scalers that allow fit_partial.
+# sklearn.onsteroids
+A set of classes to implement everyday's Data Scientists development work, into a set of libraries that implement the SciKitLearn API. 
+This allows for implementing common actions into the a scikit learn's Pipeline
+
+Implements:
+* Batching
+* Feature Engineering techniques
 
 # Who is this for?
 
